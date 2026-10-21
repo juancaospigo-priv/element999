@@ -1,0 +1,26 @@
+{
+  "commerceLogos": 5,
+  "textLogos": 5,
+  "voiceLogos": 4,
+  "avatarLogos": 4,
+  "factoryLogos": 5,
+  "tabKeyboard": true,
+  "modeKeyboard": true,
+  "pauseControl": true,
+  "responsiveWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "mobileLogoLegend": true,
+  "mobileAudioTouchTarget": true,
+  "diagnosticCTA": true,
+  "speechLifecycleWithStub": true,
+  "noSpeechFallback": true,
+  "reducedMotion": true,
+  "pausesOffscreen": true,
+  "portfolioAndFooterPreserved": true,
+  "pageErrors": [],
+  "passed": true
+}

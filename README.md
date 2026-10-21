@@ -44,3 +44,7 @@ El 21 de octubre de 2026 se recuperó el acceso a la carpeta original de Documen
 ## Portafolio de proyectos
 
 La galería está en `preview/trabajos/` y en la sección Trabajo de la web. [Añadir proyectos y alojar futuras webs estáticas](docs/PORTAFOLIO.md).
+
+## Arquitecturas visuales
+
+La sección `#arquitecturas` presenta ecommerce, agentes de texto/voz/avatar y software factory con logos reales y movimiento. [Alcance, fuentes de logos, accesibilidad y muestras de voz](docs/ARQUITECTURAS_VISUALES.md).
