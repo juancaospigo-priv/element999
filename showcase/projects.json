@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": "shortlist",
+      "name": "OnTheShortlist.ai",
+      "category": "Plataforma de visibilidad IA",
+      "url": "https://ontheshortlist.cupperlab.com/es",
+      "cover": "covers/shortlist.webp",
+      "alt": "Vista de la web On The Shortlist",
+      "featured": true,
+      "embed": false
+    },
+    {
+      "id": "terence-crudo",
+      "name": "Terence Crudo",
+      "category": "Ecommerce",
+      "url": "https://terencecrudo.com/products/lectura-de-iris",
+      "cover": "covers/terence-crudo.webp",
+      "alt": "Vista de la página Lectura de Iris de Terence Crudo",
+      "featured": true,
+      "embed": false
+    },
+    {
+      "id": "hola-pepa",
+      "name": "HolaPepa",
+      "category": "Servicios y reservas",
+      "url": "https://www.holapepa.com/",
+      "cover": "covers/hola-pepa.webp",
+      "alt": "Vista de la web de HolaPepa",
+      "featured": true,
+      "embed": false
+    },
+    {
+      "id": "almacen-de-loza",
+      "name": "El Almacén de Loza",
+      "category": "Ecommerce",
+      "url": "https://elalmacendeloza.com/",
+      "cover": "covers/almacen-de-loza.webp",
+      "alt": "Vista de la tienda El Almacén de Loza",
+      "featured": true,
+      "embed": false
+    }
+  ]
+}
