@@ -25,6 +25,18 @@ En Codespaces, abrir el puerto 4173 desde la pestaña Ports. Añadir `?preloader
 
 El diagnóstico es una demostración con tarifa base de 80 EUR/h. No conecta todavía agentes reales, CRM ni pagos. La integración final del logo debe revisarse con los activos originales.
 
+## Producto, identidad y prototipo inicial
+
+- [Fase 1: producto y operación](docs/FASE_1.md)
+- [Backlog de producción](docs/BACKLOG.md)
+- [Fase 2: entrega y validación](docs/FASE_2.md)
+- [Sistema de diseño](DESIGN.md)
+- [Prototipo inicial](prototype/README.md)
+- [Prompt para Lovable](docs/PROMPT_LOVABLE_FASE_2.md)
+- `prototype/assets/`: logos originales y favicon.
+
 ## Alcance del respaldo
 
-Este repositorio contiene todos los archivos accesibles de las dos copias de trabajo de la revisión visual. La carpeta original `Documents/ChatGPT/ELEMENT999` sigue bloqueada por macOS: sus documentos de producto, archivos de fases anteriores, activos y metadatos Git no se pudieron recuperar. Esa carpeta no debe borrarse hasta respaldarla y verificarla. No se presenta esta subida como un respaldo completo de dicha carpeta original.
+El 21 de octubre de 2026 se recuperó el acceso a la carpeta original de Documentos. Todos sus archivos de proyecto se incorporaron a `archive/original-project/` conservando sus rutas y contenido; documentación, diseño y prototipo también se ofrecen en las rutas enlazadas arriba. La web más reciente permanece en `preview/`.
+
+`original-project-manifest.json` registra los hashes SHA-256 de los archivos originales. La carpeta `.git` local inicial no contenía commits ni remotos y se excluyó; la historia válida del proyecto está en este repositorio. `migration-manifest.json` conserva la evidencia de la primera migración, anterior a la recuperación de Documentos.

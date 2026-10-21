@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-21",
+  "source": "Documents/ChatGPT/ELEMENT999",
+  "files": [
+    {
+      "source_path": "DESIGN.md",
+      "repository_path": "archive/original-project/DESIGN.md",
+      "sha256": "e6309a33c1696dae52be38b137242567b1dd42b94173a697d8ead1db15a4990f"
+    },
+    {
+      "source_path": "README.md",
+      "repository_path": "archive/original-project/README.md",
+      "sha256": "416a22e1ec303ae249fff52984a18affe39cbd76bb617429b14eb73a623184d7"
+    },
+    {
+      "source_path": "docs/BACKLOG.md",
+      "repository_path": "archive/original-project/docs/BACKLOG.md",
+      "sha256": "f1be13800bf62ca5dc9bac437b9a93f78d806bc8c5a094675f2a7a205e514c9d"
+    },
+    {
+      "source_path": "docs/FASE_1.md",
+      "repository_path": "archive/original-project/docs/FASE_1.md",
+      "sha256": "96fdad34ea8f7366012c9b9f2d4a1ce58ba60de09ea2ed2a243f58b12875b0a0"
+    },
+    {
+      "source_path": "docs/FASE_2.md",
+      "repository_path": "archive/original-project/docs/FASE_2.md",
+      "sha256": "dbe75acc54b0e527cd20d53a4b66cb461d38d8a9d0787ad245e7558229423455"
+    },
+    {
+      "source_path": "docs/PROMPT_LOVABLE_FASE_2.md",
+      "repository_path": "archive/original-project/docs/PROMPT_LOVABLE_FASE_2.md",
+      "sha256": "034d873478324203e907e232d923179cffbe39a9950b2f3a363781e670c223e8"
+    },
+    {
+      "source_path": "docs/qa/caso-movil.jpg",
+      "repository_path": "archive/original-project/docs/qa/caso-movil.jpg",
+      "sha256": "9d4c7848044dea48bb2ecaa5b7275553331b482dccd98e2d995a4962aa8dd521"
+    },
+    {
+      "source_path": "docs/qa/estimacion-escritorio.jpg",
+      "repository_path": "archive/original-project/docs/qa/estimacion-escritorio.jpg",
+      "sha256": "87a56b61b97f5d42eff28a03f4dad40c87e06f67c91ecf62df481327c0178690"
+    },
+    {
+      "source_path": "docs/qa/estimacion-movil.jpg",
+      "repository_path": "archive/original-project/docs/qa/estimacion-movil.jpg",
+      "sha256": "76ec91c9afb77416d58bd62423c345f0d6bcac62db52b668ba9b87de57b359c8"
+    },
+    {
+      "source_path": "docs/qa/identidad-movil.jpg",
+      "repository_path": "archive/original-project/docs/qa/identidad-movil.jpg",
+      "sha256": "20a96ab200ebcbb1d053be9c06bbcda58ac7a7f11d7215da05bfeff64806eb39"
+    },
+    {
+      "source_path": "docs/qa/inicio-escritorio-completo.jpg",
+      "repository_path": "archive/original-project/docs/qa/inicio-escritorio-completo.jpg",
+      "sha256": "f4c1e67430cfe953f3118bf2ca7f97a355c8af79291bdedd1e66d70b75b30637"
+    },
+    {
+      "source_path": "docs/qa/inicio-escritorio.jpg",
+      "repository_path": "archive/original-project/docs/qa/inicio-escritorio.jpg",
+      "sha256": "20e4ab002a48ca6a6759cc61f73ec8a173a72680eb882addac3b40f00d95120d"
+    },
+    {
+      "source_path": "docs/qa/inicio-movil.jpg",
+      "repository_path": "archive/original-project/docs/qa/inicio-movil.jpg",
+      "sha256": "af3132ac85fb5177a13843ef0dee9b4aa1d3af20fbd1b796e00b6d1385ec257d"
+    },
+    {
+      "source_path": "prototype/README.md",
+      "repository_path": "archive/original-project/prototype/README.md",
+      "sha256": "3aaea904d20e4f314b19894c144a0d9799b7b57487cca6a13612c1e1cebf3147"
+    },
+    {
+      "source_path": "prototype/app.mjs",
+      "repository_path": "archive/original-project/prototype/app.mjs",
+      "sha256": "b04c514000b5a936ce8c21e19de170aa5e0209bec00cf4cf4ae5664a76644c81"
+    },
+    {
+      "source_path": "prototype/assets/emblema-original.png",
+      "repository_path": "archive/original-project/prototype/assets/emblema-original.png",
+      "sha256": "eff7f6d1422588519b24ab1a3b15f9fefafad3ff910771cce2efe279c582f30c"
+    },
+    {
+      "source_path": "prototype/assets/favicon.svg",
+      "repository_path": "archive/original-project/prototype/assets/favicon.svg",
+      "sha256": "8578930db7c25446e35ab24d24660db03210ee53fd88b3f14290c52816314601"
+    },
+    {
+      "source_path": "prototype/assets/logotipo-original.jpg",
+      "repository_path": "archive/original-project/prototype/assets/logotipo-original.jpg",
+      "sha256": "b3e70897f39fe420a10fcec345dc15b3a9242143088da80319151938ae5c1826"
+    },
+    {
+      "source_path": "prototype/index.html",
+      "repository_path": "archive/original-project/prototype/index.html",
+      "sha256": "a8ab761a6916936cefb6518d3fb5f02526505e7094190da8aa60cf1437e953bb"
+    },
+    {
+      "source_path": "prototype/pricing.mjs",
+      "repository_path": "archive/original-project/prototype/pricing.mjs",
+      "sha256": "70940da01179c6b24252332a2485432630a3b27009b43542b0c486a88f5b332a"
+    },
+    {
+      "source_path": "prototype/pricing.test.mjs",
+      "repository_path": "archive/original-project/prototype/pricing.test.mjs",
+      "sha256": "38fe4121071c6569d877077e6982ee66cd6918cdf6ea41a39a1a5cbb7192c3f6"
+    },
+    {
+      "source_path": "prototype/styles.css",
+      "repository_path": "archive/original-project/prototype/styles.css",
+      "sha256": "9dfe13a711e48671aded36e2f1f5e787f7d6d2e6a4ed7e7c864229b4bb4c9192"
+    }
+  ],
+  "excluded": [
+    ".git (no commits or remotes)"
+  ]
+}
