@@ -40,3 +40,7 @@ El diagnóstico es una demostración con tarifa base de 80 EUR/h. No conecta tod
 El 21 de octubre de 2026 se recuperó el acceso a la carpeta original de Documentos. Todos sus archivos de proyecto se incorporaron a `archive/original-project/` conservando sus rutas y contenido; documentación, diseño y prototipo también se ofrecen en las rutas enlazadas arriba. La web más reciente permanece en `preview/`.
 
 `original-project-manifest.json` registra los hashes SHA-256 de los archivos originales. La carpeta `.git` local inicial no contenía commits ni remotos y se excluyó; la historia válida del proyecto está en este repositorio. `migration-manifest.json` conserva la evidencia de la primera migración, anterior a la recuperación de Documentos.
+
+## Portafolio de proyectos
+
+La galería está en `preview/trabajos/` y en la sección Trabajo de la web. [Añadir proyectos y alojar futuras webs estáticas](docs/PORTAFOLIO.md).

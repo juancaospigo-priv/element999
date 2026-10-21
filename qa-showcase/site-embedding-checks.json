@@ -1,0 +1,46 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "shortlist",
+      "url": "https://ontheshortlist.cupperlab.com/es",
+      "title": "OnTheShortlist.ai",
+      "status": 200,
+      "xFrameOptions": "SAMEORIGIN",
+      "csp": "frame-ancestors 'self'"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "terence-crudo",
+      "url": "https://terencecrudo.com/products/lectura-de-iris",
+      "title": "Lectura de Iris – Terence Crudo",
+      "status": 200,
+      "xFrameOptions": "DENY",
+      "csp": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "hola-pepa",
+      "url": "https://www.holapepa.com/",
+      "title": "HolaPepa",
+      "status": 200,
+      "xFrameOptions": "DENY",
+      "csp": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "almacen-de-loza",
+      "url": "https://elalmacendeloza.com/",
+      "title": "El Almacén de Loza",
+      "status": 200,
+      "xFrameOptions": "DENY",
+      "csp": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;"
+    }
+  }
+]

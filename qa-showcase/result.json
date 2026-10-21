@@ -1,0 +1,21 @@
+{
+  "externalProjects": 4,
+  "noThirdPartyFrames": true,
+  "coversLoad": true,
+  "buttonsAndKeyboard": true,
+  "drag": true,
+  "widthsWithoutOverflow": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "touch": true,
+  "reducedMotion": true,
+  "homeLazyLoads": true,
+  "footerAndPreloaderPreserved": true,
+  "optionalOwnSitePreview": true,
+  "catalogFailureHandled": true,
+  "pageErrors": [],
+  "passed": true
+}
