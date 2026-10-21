@@ -59,3 +59,7 @@ BASE_URL=http://127.0.0.1:4175/ QA_OUTPUT=/tmp CHROME_PATH=/ruta/a/chrome node q
 ```
 
 Playwright debe estar disponible en el entorno que ejecuta esta comprobación. Los resultados se guardan en `qa-showcase/result.json`.
+
+## Preloader en rutas independientes
+
+`trabajos/` y `laboratorio/` también incluyen el preloader compartido. Se muestra una vez por sesión, igual que en la portada. Para repetir la entrada durante la revisión, añadir `?preloader=force` a cualquiera de esas rutas. Los enlaces normales ya no incorporan el parámetro de desarrollo `preloader=0`.

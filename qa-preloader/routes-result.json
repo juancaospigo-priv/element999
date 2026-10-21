@@ -1,0 +1,136 @@
+{
+  "portfolioFirstVisit": {
+    "completed": true,
+    "mode": "webgl",
+    "elapsedMs": 3020,
+    "assetCount": 6,
+    "assets": [
+      {
+        "asset": "http://127.0.0.1:4176/showcase/showcase.css",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4176/preloader/preloader.css?v=1",
+        "status": "ready"
+      },
+      {
+        "asset": "document.fonts.ready",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4176/showcase/showcase.js",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.frag",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.vert",
+        "status": "ready"
+      }
+    ],
+    "shaderError": null,
+    "averageFPS": 60,
+    "steadyFPS": 60,
+    "p95FrameMs": 17,
+    "adaptations": [],
+    "finalScale": 1,
+    "effectiveDPR": 1,
+    "resourcesDisposed": true
+  },
+  "homeSameSession": {
+    "skipped": true
+  },
+  "homeSameSessionExpectedSkip": true,
+  "portfolioForced": {
+    "completed": true,
+    "mode": "webgl",
+    "elapsedMs": 3024,
+    "assetCount": 6,
+    "assets": [
+      {
+        "asset": "http://127.0.0.1:4176/showcase/showcase.css",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4176/preloader/preloader.css?v=1",
+        "status": "ready"
+      },
+      {
+        "asset": "document.fonts.ready",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4176/showcase/showcase.js",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.vert",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.frag",
+        "status": "ready"
+      }
+    ],
+    "shaderError": null,
+    "averageFPS": 60,
+    "steadyFPS": 60,
+    "p95FrameMs": 17,
+    "adaptations": [],
+    "finalScale": 1,
+    "effectiveDPR": 1,
+    "resourcesDisposed": true
+  },
+  "laboratoryForced": {
+    "completed": true,
+    "mode": "webgl",
+    "elapsedMs": 3008,
+    "assetCount": 6,
+    "assets": [
+      {
+        "asset": "http://127.0.0.1:4176/isometric/tiles.css",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4176/preloader/preloader.css?v=1",
+        "status": "ready"
+      },
+      {
+        "asset": "document.fonts.ready",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4176/isometric/tiles.js",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.vert",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.frag",
+        "status": "ready"
+      }
+    ],
+    "shaderError": null,
+    "averageFPS": 60,
+    "steadyFPS": 60,
+    "p95FrameMs": 17,
+    "adaptations": [],
+    "finalScale": 1,
+    "effectiveDPR": 1,
+    "resourcesDisposed": true
+  },
+  "laboratoryResumes": true,
+  "disabled": {
+    "skipped": true
+  },
+  "reducedMobile": {
+    "mode": "reduced",
+    "overflow": false
+  },
+  "pageErrors": [],
+  "passed": true
+}
