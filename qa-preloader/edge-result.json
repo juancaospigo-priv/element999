@@ -1,0 +1,95 @@
+{
+  "mobile": {
+    "result": {
+      "completed": true,
+      "mode": "webgl",
+      "elapsedMs": 3011,
+      "assetCount": 10,
+      "assets": [
+        {
+          "asset": "http://127.0.0.1:4173/preloader/preloader.css?v=1",
+          "status": "ready"
+        },
+        {
+          "asset": "http://127.0.0.1:4173/base.css",
+          "status": "ready"
+        },
+        {
+          "asset": "http://127.0.0.1:4173/revision.css",
+          "status": "ready"
+        },
+        {
+          "asset": "http://127.0.0.1:4173/motion.css?v=3",
+          "status": "ready"
+        },
+        {
+          "asset": "document.fonts.ready",
+          "status": "ready"
+        },
+        {
+          "asset": "http://127.0.0.1:4173/preview.mjs",
+          "status": "ready"
+        },
+        {
+          "asset": "http://127.0.0.1:4173/revision.mjs?v=3",
+          "status": "ready"
+        },
+        {
+          "asset": "fluid.frag",
+          "status": "ready"
+        },
+        {
+          "asset": "fluid.vert",
+          "status": "ready"
+        },
+        {
+          "asset": "http://127.0.0.1:4173/motion.mjs?v=3",
+          "status": "ready"
+        }
+      ],
+      "shaderError": null,
+      "averageFPS": 60,
+      "steadyFPS": 60,
+      "p95FrameMs": 17,
+      "adaptations": [],
+      "finalScale": 1,
+      "effectiveDPR": 1,
+      "resourcesDisposed": true
+    },
+    "origin": {
+      "x": 0.23076961248621233,
+      "y": 0.715639504691138
+    },
+    "overflow": false
+  },
+  "scroll": {
+    "before": 700,
+    "after": 700,
+    "preexistingInertPreserved": true
+  },
+  "contextLossRecovered": true,
+  "shaderFailureRecovered": true,
+  "adaptiveResolution": {
+    "steps": [
+      {
+        "fps": 36,
+        "scale": 0.78
+      },
+      {
+        "fps": 37,
+        "scale": 0.6084
+      },
+      {
+        "fps": 36,
+        "scale": 0.47455200000000003
+      },
+      {
+        "fps": 36,
+        "scale": 0.42
+      }
+    ],
+    "finalScale": 0.42
+  },
+  "pageErrors": [],
+  "passed": true
+}

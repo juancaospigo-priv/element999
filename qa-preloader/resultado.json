@@ -1,0 +1,86 @@
+{
+  "normal": {
+    "completed": true,
+    "mode": "webgl",
+    "elapsedMs": 3030,
+    "assetCount": 10,
+    "assets": [
+      {
+        "asset": "http://127.0.0.1:4173/preloader/preloader.css?v=1",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4173/base.css",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4173/revision.css",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4173/motion.css?v=3",
+        "status": "ready"
+      },
+      {
+        "asset": "document.fonts.ready",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4173/preview.mjs",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4173/revision.mjs?v=3",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.frag",
+        "status": "ready"
+      },
+      {
+        "asset": "fluid.vert",
+        "status": "ready"
+      },
+      {
+        "asset": "http://127.0.0.1:4173/motion.mjs?v=3",
+        "status": "ready"
+      }
+    ],
+    "shaderError": null,
+    "averageFPS": 59,
+    "steadyFPS": 60,
+    "p95FrameMs": 17,
+    "adaptations": [],
+    "finalScale": 1,
+    "effectiveDPR": 1,
+    "resourcesDisposed": true
+  },
+  "resources": {
+    "created": {
+      "Shader": 2,
+      "Program": 1,
+      "Buffer": 1,
+      "Texture": 1
+    },
+    "deleted": {
+      "Texture": 1,
+      "Buffer": 1,
+      "Program": 1,
+      "Shader": 2
+    },
+    "lost": 1,
+    "mouse": [
+      0.7194444443644814,
+      0.7199999999198344
+    ]
+  },
+  "sessionSkip": true,
+  "reduced": "reduced",
+  "fallback": "css",
+  "realAssetGate": {
+    "real": 91,
+    "visual": 90
+  },
+  "pageErrors": [],
+  "passed": true
+}
