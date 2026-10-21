@@ -1,0 +1,86 @@
+[
+  {
+    "name": "shopify",
+    "source": "https://cdn.shopify.com/b/shopify-brochure2-assets/c97c60ca19c64a8b5378d9f9e971f7bd.png",
+    "file": "shopify.png",
+    "bytes": 3754,
+    "homepage": "https://www.shopify.com"
+  },
+  {
+    "name": "stripe",
+    "source": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg",
+    "file": "stripe.svg",
+    "bytes": 412,
+    "homepage": "https://stripe.com"
+  },
+  {
+    "name": "claude",
+    "source": "https://claude.ai/favicon.ico",
+    "file": "claude.ico",
+    "bytes": 2445,
+    "homepage": "https://claude.ai"
+  },
+  {
+    "name": "n8n",
+    "source": "https://n8n.io/favicon.ico",
+    "file": "n8n.ico",
+    "bytes": 15086,
+    "homepage": "https://n8n.io"
+  },
+  {
+    "name": "elevenlabs",
+    "source": "https://elevenlabs.io/icon.svg?c23f5371fdd26632",
+    "file": "elevenlabs.svg",
+    "bytes": 404,
+    "homepage": "https://elevenlabs.io"
+  },
+  {
+    "name": "heygen",
+    "source": "https://www.heygen.com/favicon.ico?favicon.2m321y0geyyfh.ico",
+    "file": "heygen.ico",
+    "bytes": 15406,
+    "homepage": "https://www.heygen.com"
+  },
+  {
+    "name": "github",
+    "source": "https://github.githubassets.com/favicons/favicon.svg",
+    "file": "github.svg",
+    "bytes": 959,
+    "homepage": "https://github.com"
+  },
+  {
+    "name": "supabase",
+    "source": "https://supabase.com/favicon/favicon.svg",
+    "file": "supabase.svg",
+    "bytes": 1107,
+    "homepage": "https://supabase.com"
+  },
+  {
+    "name": "cloudflare",
+    "source": "https://www.cloudflare.com/favicon.ico",
+    "file": "cloudflare.png",
+    "bytes": 908,
+    "homepage": "https://www.cloudflare.com"
+  },
+  {
+    "name": "vercel",
+    "source": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-57x57.png",
+    "file": "vercel.png",
+    "bytes": 265,
+    "homepage": "https://vercel.com"
+  },
+  {
+    "name": "whatsapp",
+    "source": "https://static.whatsapp.net/rsrc.php/y1/r/FJbTMJqMap7.svg",
+    "file": "whatsapp.svg",
+    "bytes": 1133,
+    "homepage": "https://www.whatsapp.com"
+  },
+  {
+    "name": "openai",
+    "file": "openai.svg",
+    "source": "https://developers.openai.com/favicon.svg",
+    "homepage": "https://openai.com",
+    "bytes": 2571
+  }
+]
