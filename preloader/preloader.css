@@ -1,0 +1,30 @@
+html.preloader-pending{overflow:hidden!important;overscroll-behavior:none}
+html.preloader-pending:before{content:"";position:fixed;inset:0;z-index:2147483646;background:#050807;pointer-events:none}
+html.preloader-pending .hero *,html.preloader-pending .packet{animation-play-state:paused!important}
+.fluid-preloader{position:fixed;inset:0;width:100%;height:100dvh;z-index:2147483647;isolation:isolate;overflow:hidden;touch-action:none;color:#e8f5dc;font-family:Arial,Helvetica,sans-serif;background:#050807}
+.fluid-preloader.is-ready{background:transparent}
+.fluid-preloader canvas,.fluid-backdrop{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.fluid-preloader canvas{z-index:1}
+.fluid-backdrop{background:radial-gradient(ellipse at 20% 30%,#769e3c55,transparent 62%),radial-gradient(ellipse at 80% 70%,#bbdf7a55,transparent 60%),linear-gradient(125deg,#050807,#173021,#446e26,#050807);background-size:180% 180%,200% 200%,350% 350%;animation:fluid-fallback 13s ease-in-out infinite alternate}
+.fluid-preloader[data-mode=webgl] .fluid-backdrop{display:none}
+.fluid-ui{position:absolute;inset:0;padding:38px 56px;z-index:2;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none;transition:opacity .38s ease}
+.fluid-topline,.fluid-bottomline{display:flex;justify-content:space-between;gap:25px;font:9px/1.6 Consolas,"Liberation Mono",monospace;letter-spacing:1.6px;color:#dceaccb3}
+.fluid-counter{font-size:clamp(75px,12vw,170px);line-height:.85;letter-spacing:-.07em;font-weight:400;margin:0 0 22px}
+.fluid-lower{margin-top:auto}.fluid-lower>p{font:9px/1.5 Consolas,"Liberation Mono",monospace;letter-spacing:1.5px;color:#dceaccb3;margin:0 0 24px}
+.fluid-progress-track{height:1px;background:#e8f5dc25;margin-bottom:19px;overflow:hidden}
+.fluid-progress-fill{height:100%;width:100%;transform:scaleX(var(--load-progress,0));transform-origin:left;background:#ddffc0}
+.fluid-brand{position:absolute;left:50%;top:49%;width:90%;text-align:center;margin:0;transform:translate(-50%,-50%);font-size:clamp(36px,8vw,125px);font-weight:500;letter-spacing:-.065em;clip-path:inset(100% 0 0);opacity:0;transition:clip-path .9s cubic-bezier(.16,1,.3,1),opacity .8s}
+.fluid-preloader.brand-ready .fluid-brand{clip-path:inset(0);opacity:1}
+.fluid-preloader[data-mode=webgl] .fluid-brand{opacity:0}
+.fluid-preloader.is-exiting .fluid-ui{opacity:0}
+.fluid-preloader:not([data-mode=webgl]).is-exiting{mask-image:radial-gradient(circle at var(--reveal-x,50%) var(--reveal-y,50%),transparent calc(var(--cutout,0px) - 24px),#000 calc(var(--cutout,0px) + 24px))}
+.fluid-preloader[data-mode=reduced] .fluid-backdrop{animation:none;background:#080b09}
+.fluid-preloader[data-mode=reduced]{transition:opacity .3s ease}
+.fluid-preloader[data-mode=reduced].is-exiting{opacity:0;mask-image:none}
+.fluid-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@keyframes fluid-fallback{0%{background-position:0% 0%,100% 50%,0% 0%}100%{background-position:100% 100%,0% 0%,100% 100%}}
+@media(max-width:760px){.fluid-ui{padding:27px 24px}.fluid-topline,.fluid-bottomline{font-size:7px;letter-spacing:1px}.fluid-counter{font-size:100px;margin-bottom:20px}.fluid-lower>p{font-size:7px;letter-spacing:1px}.fluid-brand{font-size:clamp(40px,11vw,80px)}}
+@media(prefers-reduced-motion:reduce){.fluid-backdrop{animation:none}.fluid-preloader .fluid-brand{transition:opacity .2s}.fluid-ui{transition:opacity .2s}}
+
+html.preloader-pending.preloader-mounted:before{display:none}
+html.preloader-pending.preloader-revealing .hero *{animation-play-state:running!important}
