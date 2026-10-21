@@ -1,0 +1,11 @@
+.isometric-field{position:relative;isolation:isolate;overflow:hidden;width:100%;height:clamp(420px,72svh,760px);background:#070908;outline:none;border-block:1px solid #a7ff521f;touch-action:pan-y}
+.isometric-field canvas{display:block;width:100%;height:100%;position:absolute;inset:0}
+.isometric-field:focus-visible{outline:2px solid #a7ff52;outline-offset:-3px}
+.isometric-caption{position:absolute;z-index:1;inset:32px 36px auto;display:flex;justify-content:space-between;gap:24px;pointer-events:none;font:10px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.6px;color:#b6c3ad;text-shadow:0 1px 8px #000}
+.isometric-caption span:last-child{text-align:right;color:#a7ff52}
+.isometric-footer{position:absolute;z-index:1;left:36px;bottom:28px;right:36px;display:flex;justify-content:space-between;gap:20px;pointer-events:none;font:10px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.2px;color:#b6c3ad;text-shadow:0 1px 8px #000}
+.isometric-footer a{pointer-events:auto;color:#d2ff9d;text-decoration:none}
+.isometric-field[data-tiles=fallback]{background:radial-gradient(ellipse at 50% 50%,#628f32 0,#24421e 24%,#101810 46%,#070908 74%)}
+.isometric-field[data-tiles=fallback]:after{content:"";position:absolute;inset:-50%;background:repeating-linear-gradient(45deg,transparent 0 75px,#070908 76px 82px),repeating-linear-gradient(-45deg,transparent 0 75px,#070908 76px 82px);transform:scaleY(.57)}
+@media(max-width:600px){.isometric-field{height:65svh;min-height:410px}.isometric-caption{inset:22px 20px auto;font-size:8px;letter-spacing:1px}.isometric-footer{left:20px;right:20px;bottom:20px;font-size:8px;letter-spacing:.7px}.isometric-caption span{max-width:48%}}
+@media(prefers-reduced-motion:reduce){.isometric-instruction{visibility:hidden}}
