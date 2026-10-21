@@ -4,7 +4,7 @@ Reproducción visual propia de la grabación de referencia: retícula de baldosa
 
 ## Revisión
 
-- En la web: sección `#materia`, después de la apertura.
+- En la web: `#materia` dentro del footer, antes de los datos de marca y cierre.
 - Vista a pantalla completa: `laboratorio/`.
 - La muestra no sustituye el preloader líquido ya existente.
 

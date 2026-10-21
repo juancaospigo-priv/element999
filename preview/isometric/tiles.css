@@ -9,3 +9,7 @@
 .isometric-field[data-tiles=fallback]:after{content:"";position:absolute;inset:-50%;background:repeating-linear-gradient(45deg,transparent 0 75px,#070908 76px 82px),repeating-linear-gradient(-45deg,transparent 0 75px,#070908 76px 82px);transform:scaleY(.57)}
 @media(max-width:600px){.isometric-field{height:65svh;min-height:410px}.isometric-caption{inset:22px 20px auto;font-size:8px;letter-spacing:1px}.isometric-footer{left:20px;right:20px;bottom:20px;font-size:8px;letter-spacing:.7px}.isometric-caption span{max-width:48%}}
 @media(prefers-reduced-motion:reduce){.isometric-instruction{visibility:hidden}}
+
+/* The responsive material forms the opening of the page footer. */
+.site-footer{background:#070908}.site-footer .footer-materia{height:clamp(360px,56svh,600px);min-height:360px;border-bottom:0}.site-footer>.footer{margin-bottom:0}
+@media(max-width:600px){.site-footer .footer-materia{height:52svh;min-height:350px}}
