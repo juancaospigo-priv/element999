@@ -1,0 +1,29 @@
+{
+  "desktop": {
+    "renderer": "webgl",
+    "frames": 150,
+    "averageFPS": 60,
+    "resolutionScale": 1,
+    "adaptations": 0,
+    "canvasPixels": 1200692
+  },
+  "cursorChangesImage": true,
+  "keyboard": true,
+  "mobile": {
+    "interaction": "touch",
+    "renderer": "webgl",
+    "overflow": false,
+    "canvasPixels": 740610
+  },
+  "reduced": {
+    "frames": 0,
+    "renderer": "webgl"
+  },
+  "noWebGLFallback": true,
+  "contextLossFallback": true,
+  "pausesOffscreen": true,
+  "preloaderCompatible": true,
+  "homeMobileNoOverflow": true,
+  "errors": [],
+  "passed": true
+}
