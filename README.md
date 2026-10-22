@@ -52,3 +52,7 @@ La sección `#arquitecturas` presenta ecommerce, agentes de texto/voz/avatar y s
 ## Recepción de solicitudes
 
 Integración estática con Formspree, preparada en `preview/requests/`. [Activación, límites y verificación](docs/RECEPCION_SOLICITUDES.md). Endpoint del propietario configurado. La aceptación real del proveedor se registra en `qa-requests/live-result.json`; la llegada al buzón la confirma el propietario.
+
+## Soluciones por industria
+
+Explorador de ocho sectores en `#industrias`, con aplicaciones representativas, escenas ligeras y diagnóstico que conserva el sector. [Experiencia, alcance y verificación](docs/SOLUCIONES_POR_INDUSTRIA.md).

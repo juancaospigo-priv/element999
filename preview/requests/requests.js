@@ -12,7 +12,7 @@ export function requestPayload(contact, record, quote, reference, source) {
   return {
     name: contact.name.trim(), email: contact.email.trim(),
     _subject: `Element999 · Nueva solicitud · ${reference}`,
-    reference, business: record.business, service: record.service,
+    reference, industry: record.industry || 'Sin especificar', business: record.business, service: record.service,
     need: record.need, tools: record.tools,
     scope: [record.language && 'Segundo idioma', record.extra && 'Integración adicional validada', record.urgent && 'Urgencia: revisar capacidad', (record.review || record.service === 'custom') && 'Revisión de alcance pendiente'].filter(Boolean).join('; ') || 'Estándar con integración validada',
     estimate: quote.low ? `${quote.low}–${quote.high} EUR, antes de impuestos y costes externos; sujeto a revisión` : 'Pendiente de revisión de alcance',

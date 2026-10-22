@@ -1,0 +1,23 @@
+{
+  "sectors": 8,
+  "applications": 24,
+  "keyboard": true,
+  "manualPause": true,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "mobile": true,
+  "contextInDiagnostic": true,
+  "contextInMockSubmission": true,
+  "resetClearsIndustry": true,
+  "genericDiagnosticPreserved": true,
+  "offscreenPause": true,
+  "reducedMotion": true,
+  "pageErrors": [],
+  "noRealFormSubmission": true,
+  "passed": true
+}
