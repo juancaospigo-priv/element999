@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "slug": "terence-crudo",
+      "areas": 6,
+      "responsive": true,
+      "diagnostic": true
+    },
+    {
+      "slug": "ontheshortlist",
+      "areas": 4,
+      "responsive": true,
+      "diagnostic": true
+    },
+    {
+      "slug": "almacen-de-loza",
+      "areas": 3,
+      "responsive": true,
+      "diagnostic": true
+    },
+    {
+      "slug": "hola-pepa",
+      "areas": 2,
+      "responsive": true,
+      "diagnostic": true
+    }
+  ],
+  "pageErrors": [],
+  "noRealFormSubmission": true,
+  "passed": true
+}

@@ -73,3 +73,11 @@ La página distingue el objetivo comercial del trabajo realizado y no atribuye a
 «Quiero algo así» abre el diagnóstico existente con `project=terence-crudo#diagnostico`, selecciona solución a medida y propone una necesidad editable. No produce una cotización de landing estándar para un alcance combinado. La recepción sigue usando Formspree tras la confirmación expresa del visitante.
 
 Verificación: `qa-cases/terence.cjs` comprueba las seis áreas, la portada, las galerías, cuatro anchos de pantalla, el preloader compartido y el recorrido hasta la recepción, sin enviar un formulario real. No hay build ni librerías nuevas.
+
+## Casos adicionales confirmados por el fundador
+
+- **OnTheShortlist.ai** (`trabajos/ontheshortlist/`): producto propio de visibilidad en IA, datos verificables, rankings públicos, diagnóstico, base de datos, newsletter y revista. Se describe la propuesta de Cupperlab sin atribuir a Element999 una propiedad societaria ni garantizar recomendaciones futuras. La idea de que tener un producto propio refuerza la venta de servicios se recibió expresamente como inferencia; no se publica como resultado demostrado.
+- **El Almacén de Loza** (`trabajos/almacen-de-loza/`): tienda anterior en WooCommerce, problema de conversión comunicado por el fundador, migración completa y diseño completo de la nueva web. No se identifica plataforma de destino ni mejora cuantitativa no confirmada.
+- **HolaPepa** (`trabajos/hola-pepa/`): rediseño integral y montaje del sistema completo en Shopify. No se inventan módulos de reservas, pagos, CRM, integraciones u otros sistemas no especificados.
+
+Las cuatro entradas del catálogo usan `caseStudy` para enlazar a páginas propias y mantienen el enlace externo original. Los cuatro botones de proyecto abren un alcance a medida, con una descripción editable y envío únicamente mediante el formulario existente. Las tarjetas del caso usan HTML/CSS estático y las portadas WebP ya existentes; no se añaden dependencias ni vídeos. `qa-cases/all.cjs` verifica los cuatro casos y sus enlaces a 320, 390, 768 y 1440 px sin enviar solicitudes reales.
