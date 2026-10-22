@@ -48,3 +48,7 @@ La galería está en `preview/trabajos/` y en la sección Trabajo de la web. [A�
 ## Arquitecturas visuales
 
 La sección `#arquitecturas` presenta ecommerce, agentes de texto/voz/avatar y software factory con logos reales y movimiento. [Alcance, fuentes de logos, accesibilidad y muestras de voz](docs/ARQUITECTURAS_VISUALES.md).
+
+## Recepción de solicitudes
+
+Integración estática con Formspree, preparada en `preview/requests/`. [Activación, límites y verificación](docs/RECEPCION_SOLICITUDES.md). Pendiente de configurar el endpoint del propietario y probar la recepción real antes de publicar.

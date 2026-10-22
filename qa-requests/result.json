@@ -1,0 +1,18 @@
+{
+  "endpointAllowlist": true,
+  "unconfiguredSafe": true,
+  "requiredFields": true,
+  "trap": true,
+  "failurePreservesData": true,
+  "quotaError": true,
+  "timeout": true,
+  "offline": true,
+  "successAndDuplicateGuard": true,
+  "referenceStable": true,
+  "downloadReceipt": true,
+  "resetClearsContact": true,
+  "mobile": true,
+  "pageErrors": [],
+  "liveDeliveryTested": false,
+  "passed": true
+}
