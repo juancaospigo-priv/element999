@@ -13,12 +13,13 @@
     {
       "id": "terence-crudo",
       "name": "Terence Crudo",
-      "category": "Ecommerce",
+      "category": "Cursos y tickets de alto valor",
       "url": "https://terencecrudo.com/products/lectura-de-iris",
       "cover": "covers/terence-crudo.webp",
       "alt": "Vista de la página Lectura de Iris de Terence Crudo",
       "featured": true,
-      "embed": false
+      "embed": false,
+      "caseStudy": "../trabajos/terence-crudo/"
     },
     {
       "id": "hola-pepa",
