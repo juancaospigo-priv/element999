@@ -39,3 +39,7 @@ No hay build ni dependencias nuevas. Servir `preview/` con un servidor estático
 ## Endpoint configurado
 
 El propietario facilitó `https://formspree.io/f/xgaogjpp`. Está configurado en `preview/requests-config.js`. Las comprobaciones del código usan respuestas simuladas; la aceptación real del proveedor se registra por separado en `qa-requests/live-result.json`. La llegada al buzón requiere confirmación del propietario.
+
+## Verificación de producción
+
+El 22 de octubre de 2026 se publicó la recepción y se envió una única solicitud identificada como prueba técnica desde GitHub Pages. Formspree respondió HTTP 200 con `ok: true`; la interfaz mostró la referencia `E999-4B59A228` y no se registraron errores JavaScript. Evidencia: `qa-requests/live-result.json`. Esto confirma la aceptación del proveedor, no acredita la llegada al buzón: pendiente de confirmación del propietario.

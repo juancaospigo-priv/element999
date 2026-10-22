@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-22T11:15:38.577Z",
+  "url": "https://juancaospigo-priv.github.io/element999/?revision=0f4f426",
+  "endpoint": "https://formspree.io/f/xgaogjpp",
+  "httpStatus": 200,
+  "providerResponse": {
+    "next": "/thanks?language=es",
+    "ok": true
+  },
+  "receipt": "Solicitud recibida · E999-4B59A228. Contactaremos contigo en el correo indicado. La estimación queda pendiente de confirmar.",
+  "pageErrors": [],
+  "realSubmissions": 1,
+  "mailboxDeliveryConfirmed": false,
+  "passed": true
+}
