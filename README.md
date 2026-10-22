@@ -56,3 +56,7 @@ Integración estática con Formspree, preparada en `preview/requests/`. [Activac
 ## Soluciones por industria
 
 Explorador de ocho sectores en `#industrias`, con aplicaciones representativas, escenas ligeras y diagnóstico que conserva el sector. [Experiencia, alcance y verificación](docs/SOLUCIONES_POR_INDUSTRIA.md).
+
+## Experiencia de marca
+
+La portada explora tres fricciones de negocio con materia generativa y una conexión al diagnóstico. [Dirección, implementación y pruebas de la experiencia actual](docs/EXPERIENCIA_ELEMENT999.md).

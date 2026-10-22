@@ -1,0 +1,25 @@
+{
+  "signatureRenderer": true,
+  "modes": 3,
+  "reversibleTransformation": true,
+  "diagnosticAndNarrative": true,
+  "manualPause": true,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "mobile": true,
+  "proofBeforeCapabilities": true,
+  "scrollNarrative": true,
+  "offscreenPause": true,
+  "reducedMotion": true,
+  "staticFallback": true,
+  "industriesAndFooter": true,
+  "preloader": true,
+  "pageErrors": [],
+  "noRealFormSubmission": true,
+  "passed": true
+}
