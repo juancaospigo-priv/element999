@@ -63,3 +63,13 @@ Playwright debe estar disponible en el entorno que ejecuta esta comprobación. L
 ## Preloader en rutas independientes
 
 `trabajos/` y `laboratorio/` también incluyen el preloader compartido. Se muestra una vez por sesión, igual que en la portada. Para repetir la entrada durante la revisión, añadir `?preloader=force` a cualquiera de esas rutas. Los enlaces normales ya no incorporan el parámetro de desarrollo `preloader=0`.
+
+## Caso Terence Crudo
+
+El fundador confirmó el reto de vender cursos y tickets de alto valor y su participación en landings, combos, cross-sell, upsell, analítica y tráfico. Ese alcance se presenta en `preview/trabajos/terence-crudo/index.html`, enlazado desde las galerías de inicio y Trabajo mediante el campo opcional `caseStudy` del catálogo. Se reutiliza la portada existente; no se añaden imágenes de terceros ni dependencias.
+
+La página distingue el objetivo comercial del trabajo realizado y no atribuye aumentos de ventas, ROAS, tasas de conversión, fechas, canales, presupuestos ni testimonios no confirmados. El esquema final representa las áreas trabajadas y no una arquitectura técnica validada.
+
+«Quiero algo así» abre el diagnóstico existente con `project=terence-crudo#diagnostico`, selecciona solución a medida y propone una necesidad editable. No produce una cotización de landing estándar para un alcance combinado. La recepción sigue usando Formspree tras la confirmación expresa del visitante.
+
+Verificación: `qa-cases/terence.cjs` comprueba las seis áreas, la portada, las galerías, cuatro anchos de pantalla, el preloader compartido y el recorrido hasta la recepción, sin enviar un formulario real. No hay build ni librerías nuevas.

@@ -1,0 +1,16 @@
+{
+  "caseContent": true,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "caseToDiagnosticAndReception": true,
+  "portfolioCaseLink": true,
+  "homeCaseLink": true,
+  "sharedPreloader": true,
+  "pageErrors": [],
+  "noRealFormSubmission": true,
+  "passed": true
+}
