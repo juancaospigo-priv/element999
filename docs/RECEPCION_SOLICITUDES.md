@@ -2,13 +2,13 @@
 
 La web es estática y conserva su estructura de módulos JavaScript nativos. Formspree recibe el diagnóstico y los datos de contacto, almacena el envío en su panel y notifica al destinatario configurado. No se guardan contactos en GitHub ni en almacenamiento persistente del navegador. No hay funciones de servidor ni claves privadas en el frontend.
 
-## Activación pendiente
+## Configuración y activación
 
 1. Crear un formulario en una cuenta de Formspree del propietario y verificar el correo destinatario. No compartir contraseñas ni claves API.
 2. Facilitar el endpoint público `https://formspree.io/f/<id>` e introducirlo en `preview/requests-config.js`.
 3. Configurar las notificaciones al correo elegido y restringir el formulario al dominio `juancaospigo-priv.github.io` desde el panel. Revisar la protección antispam/CAPTCHA del proveedor; el campo trampa del navegador es solo una capa adicional, no protección suficiente por sí sola.
 4. Ejecutar un envío de prueba identificado como tal, verificar su presencia en el panel y confirmar la llegada al correo. Las pruebas automatizadas interceptan la red y no acreditan entrega real.
-5. Publicar en la rama `codex/cloud-preview` únicamente después de configurar el endpoint y comprobar la recepción. Hasta entonces los cambios quedan en `main`; la web publicada mantiene el diagnóstico anterior.
+5. Publicar en la rama `codex/cloud-preview` después de configurar el endpoint. Verificar un envío desde la web publicada antes de dar por concluida la activación.
 
 Si no hay endpoint válido el botón de envío permanece deshabilitado y se explica que la recepción no está activada. No se acepta una URL arbitraria ni se utiliza una cuenta de terceros como destinatario.
 
@@ -35,3 +35,7 @@ Fuentes oficiales:
 ## Verificación
 
 No hay build ni dependencias nuevas. Servir `preview/` con un servidor estático y ejecutar `qa-requests/check.cjs` con Playwright disponible vía `NODE_PATH`. El script usa un receptor simulado y configuración interceptada, sin modificar el endpoint de producción ni enviar mensajes a nadie.
+
+## Endpoint configurado
+
+El propietario facilitó `https://formspree.io/f/xgaogjpp`. Está configurado en `preview/requests-config.js`. Las comprobaciones del código usan respuestas simuladas; la aceptación real del proveedor se registra por separado en `qa-requests/live-result.json`. La llegada al buzón requiere confirmación del propietario.

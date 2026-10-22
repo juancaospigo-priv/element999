@@ -51,4 +51,4 @@ La sección `#arquitecturas` presenta ecommerce, agentes de texto/voz/avatar y s
 
 ## Recepción de solicitudes
 
-Integración estática con Formspree, preparada en `preview/requests/`. [Activación, límites y verificación](docs/RECEPCION_SOLICITUDES.md). Pendiente de configurar el endpoint del propietario y probar la recepción real antes de publicar.
+Integración estática con Formspree, preparada en `preview/requests/`. [Activación, límites y verificación](docs/RECEPCION_SOLICITUDES.md). Endpoint del propietario configurado. La aceptación real del proveedor se registra en `qa-requests/live-result.json`; la llegada al buzón la confirma el propietario.

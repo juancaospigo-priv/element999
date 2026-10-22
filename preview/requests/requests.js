@@ -41,7 +41,7 @@ export function initRequests({ getRecord, getQuote, onReceipt }) {
   const configured = validEndpoint(REQUESTS_CONFIG.endpoint);
   let busy = false, sent = false, reference = null;
   submit.disabled = !configured;
-  if (!configured) status.textContent = 'La recepción online aún no está activada. Puedes descargar tu resumen.';
+  status.textContent = configured ? '' : 'La recepción online aún no está activada. Puedes descargar tu resumen.';
 
   const reset = () => {
     if (busy) return false;

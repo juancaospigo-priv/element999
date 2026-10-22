@@ -13,6 +13,7 @@ const base=process.env.BASE_URL||'http://127.0.0.1:4181/';
    await page.locator('[name=business]').fill('Proyecto de prueba');await page.locator('[name=tools]').fill('CRM por definir');await page.locator('[name=validated]').selectOption('yes');await page.locator('#next').click();await page.locator('[name=confirmed]').check();await page.locator('#next').click();
    await page.locator('#result').waitFor({state:'visible'});assert.match(await page.locator('#price').textContent(),/1[.]?600.*1[.]?850/);
   }
+  await page.route('**/requests-config.js',route=>route.fulfill({contentType:'text/javascript',body:'export const REQUESTS_CONFIG={endpoint:"",timeoutMs:300};'}));
   await diagnosis();assert(await page.evaluate(async()=>{const {validEndpoint}=await import('./requests/requests.js');return validEndpoint('https://formspree.io/f/abcdefgh') && !validEndpoint('https://evil.example/f/abcdefgh') && !validEndpoint('https://formspree.io/f/abcdefgh?redirect=bad') && !validEndpoint('https://user@formspree.io/f/abcdefgh');}));result.endpointAllowlist=true;assert(await page.locator('#request-form button').isDisabled());assert.match(await page.locator('#request-status').textContent(),/aún no está activada/);result.unconfiguredSafe=true;
   await page.route('**/requests-config.js',route=>route.fulfill({contentType:'text/javascript',body:'export const REQUESTS_CONFIG={endpoint:"https://formspree.io/f/testendpoint",timeoutMs:300};'}));
   let count=0,mode='failure',payloads=[];
