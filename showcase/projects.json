@@ -3,12 +3,13 @@
     {
       "id": "shortlist",
       "name": "OnTheShortlist.ai",
-      "category": "Plataforma de visibilidad IA",
+      "category": "Producto propio · Visibilidad en IA",
       "url": "https://ontheshortlist.cupperlab.com/es",
       "cover": "covers/shortlist.webp",
       "alt": "Vista de la web On The Shortlist",
       "featured": true,
-      "embed": false
+      "embed": false,
+      "caseStudy": "../trabajos/ontheshortlist/"
     },
     {
       "id": "terence-crudo",
@@ -24,22 +25,24 @@
     {
       "id": "hola-pepa",
       "name": "HolaPepa",
-      "category": "Servicios y reservas",
+      "category": "Rediseño integral · Shopify",
       "url": "https://www.holapepa.com/",
       "cover": "covers/hola-pepa.webp",
       "alt": "Vista de la web de HolaPepa",
       "featured": true,
-      "embed": false
+      "embed": false,
+      "caseStudy": "../trabajos/hola-pepa/"
     },
     {
       "id": "almacen-de-loza",
       "name": "El Almacén de Loza",
-      "category": "Ecommerce",
+      "category": "Migración y rediseño ecommerce",
       "url": "https://elalmacendeloza.com/",
       "cover": "covers/almacen-de-loza.webp",
       "alt": "Vista de la tienda El Almacén de Loza",
       "featured": true,
-      "embed": false
+      "embed": false,
+      "caseStudy": "../trabajos/almacen-de-loza/"
     }
   ]
 }

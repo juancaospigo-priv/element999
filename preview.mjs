@@ -26,5 +26,16 @@ $('#download').addEventListener('click',()=>{if(!record||!quote)return;const tex
 $('#menu').addEventListener('click',()=>{const opened=$('#main-nav').classList.toggle('is-open');$('#menu').setAttribute('aria-expanded',String(opened));});$$('#main-nav a').forEach(link=>link.addEventListener('click',()=>{$('#main-nav').classList.remove('is-open');$('#menu').setAttribute('aria-expanded','false');}));
 $('#skip').addEventListener('click',event=>{event.preventDefault();$('#main').focus();$('#main').scrollIntoView();});setStep(1,false);
 
-// A case-study CTA opens the existing diagnostic; multi-part projects need a scoped quote.
-if(location.hash==='#diagnostico'){const fromCase=new URLSearchParams(location.search).get('project')==='terence-crudo';open(fromCase?'custom':undefined);if(fromCase)form.elements.need.value='Quiero un recorrido de venta para cursos o tickets de alto valor, con landings, combos, cross-sell y upsell.';}
+// Case-study CTAs are scoped projects, not automatic standard landing quotes.
+if(location.hash==='#diagnostico'){
+ const needs={
+  'terence-crudo':'Quiero un recorrido de venta para cursos o tickets de alto valor, con landings, combos, cross-sell y upsell.',
+  "shortlist":"Quiero crear un producto web propio con datos, contenido y un diagnóstico para captar solicitudes.",
+  "almacen-de-loza":"Quiero revisar la migración y el rediseño completo de mi ecommerce.",
+  "hola-pepa":"Quiero rediseñar e implementar mi sistema completo en Shopify.",
+ };
+ const project=new URLSearchParams(location.search).get('project');
+ const need=Object.hasOwn(needs,project)?needs[project]:null;
+ open(need?'custom':undefined);
+ if(need)form.elements.need.value=need;
+}
