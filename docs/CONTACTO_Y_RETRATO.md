@@ -34,3 +34,7 @@ Sin JavaScript, un formulario HTML estándar puede enviar a Formspree y continua
 ## Verificación
 
 `qa-contact/check.cjs` comprueba imagen, cinco anchos de 320 a 1440 px, campos obligatorios, trampa antispam, errores, reintento con referencia estable, confirmación simulada, limpieza, formulario nativo, movimiento reducido, preloader y ausencia del retrato/formulario de contacto en la principal. No se envían correos reales en estas pruebas. Resultado en `qa-contact/result.json`.
+
+## Segunda edición
+
+La versión activa del retrato usa las fotos nuevas facilitadas por el fundador, con expresión frontal y luz más natural. Véase `docs/RETRATO_FUNDADOR_V2.md` para archivos y prompt. La primera edición se conserva como versión anterior.
