@@ -60,3 +60,7 @@ Explorador de ocho sectores en `#industrias`, con aplicaciones representativas, 
 ## Experiencia de marca
 
 La portada explora tres fricciones de negocio con materia generativa y una conexión al diagnóstico. [Dirección, implementación y pruebas de la experiencia actual](docs/EXPERIENCIA_ELEMENT999.md).
+
+## Contacto del fundador
+
+Página independiente en `contacto/`, con retrato profesional optimizado y formulario conectado al receptor existente. [Imagen de alta resolución, prompt, implementación y pruebas](docs/CONTACTO_Y_RETRATO.md).

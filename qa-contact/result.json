@@ -1,0 +1,26 @@
+{
+  "portraitLoaded": true,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "mobile": true,
+  "requiredFields": true,
+  "trap": true,
+  "errorKeepsContact": true,
+  "mockDelivery": true,
+  "duplicateGuard": true,
+  "optionalBusiness": true,
+  "reset": true,
+  "nativeFormFallback": true,
+  "reducedMotion": true,
+  "homeLinksOnly": true,
+  "homeNavigation": true,
+  "preloader": true,
+  "pageErrors": [],
+  "realEmailsSent": 0,
+  "passed": true
+}
